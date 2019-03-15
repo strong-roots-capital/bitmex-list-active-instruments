@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/bitmex-list-active-instruments",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "List active instruments trading on BitMEX",
   "main": "dist/bitmex-list-active-instruments.js",
   "types": "dist/bitmex-list-active-instruments.d.ts",
