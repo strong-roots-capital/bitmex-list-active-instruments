@@ -54,7 +54,7 @@ Related
 
 ▸ **listActiveInstruments**(): `Promise`<`string`[]>
 
-*Defined in [bitmex-list-active-instruments.ts:15](https://github.com/strong-roots-capital/bitmex-list-active-instruments/blob/1a78abf/src/bitmex-list-active-instruments.ts#L15)*
+*Defined in [bitmex-list-active-instruments.ts:15](https://github.com/strong-roots-capital/bitmex-list-active-instruments/blob/5d5a039/src/bitmex-list-active-instruments.ts#L15)*
 
 Returns the list of actively-traded contracts on BitMEX exchange.
 
