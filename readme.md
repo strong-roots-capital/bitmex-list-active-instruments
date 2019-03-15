@@ -11,14 +11,24 @@ npm install @strong-roots-capital/bitmex-list-active-instruments
 ## Use
 
 ``` typescript
-import bitmexListActiveInstruments from '@strong-roots-capital/bitmex-list-active-instruments'
-// TODO: describe usage
+import listActiveInstruments from '@strong-roots-capital/bitmex-list-active-instruments'
+
+(async () => {
+    console.log(await listActiveInstruments())
+    //=> [ 'XRPH19',
+    //     'BCHH19',
+    //     'ADAH19',
+    //     'EOSH19',
+    //     'TRXH19',
+    //     'XBTUSD',
+    //     'XBTH19',
+    //     'XBTM19',
+    //     'ETHUSD',
+    //     'ETHH19',
+    //     'LTCH19' ]
+}) ()
 ```
 
 ## Related
 
-TODO
-
-## Acknowledgments
-
-TODO
+- [bitmex-node](https://www.npmjs.com/package/bitmex-node)

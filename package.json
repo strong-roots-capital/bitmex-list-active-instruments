@@ -41,6 +41,7 @@
   "homepage": "https://github.com/strong-roots-capital/bitmex-list-active-instruments",
   "dependencies": {
     "@types/node": "^10.12.18",
+    "bitmex-node": "^1.7.0",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
